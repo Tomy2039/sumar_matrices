@@ -15,7 +15,7 @@ function crearMatrices() {
         }
         contenido.innerHTML += "<br>";
     }
-
+    contenido.innerHTML += "<h3>+</h3>"
     contenido.innerHTML += "<h3>Matriz 2</h3>";
     for (let i = 0; i < filas; i++) {
         for (let j = 0; j < columnas; j++) {
